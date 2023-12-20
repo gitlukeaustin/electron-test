@@ -1,14 +1,10 @@
 import { useCallback, useState } from "react";
 import Button from "./Button/Button";
 
-const fs = require('fs');
 
 const App = () => {
     const processFile = useCallback(async () => {
-        fs.readFile(file, (error: any, data: any) => {
-            if (error) throw error;
-            console.log("got data from file", data);
-        })
+        console.log("read file...", file);
     },[])
 
     const [file, setFile] = useState("");
