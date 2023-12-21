@@ -1,7 +1,7 @@
 {
   "name": "electron-test",
   "version": "1.0.0",
-  "description": "",
+  "description": "electron-test",
   "main": "main.js",
   "scripts": {
     "start": "electron-forge start",
@@ -39,7 +39,7 @@
     }
   },
   "keywords": [],
-  "author": "",
+  "author": "gitlukeaustin",
   "license": "ISC",
   "dependencies": {
     "@types/react": "^18.2.45",
