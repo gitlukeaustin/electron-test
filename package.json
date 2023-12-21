@@ -35,6 +35,18 @@
           "name": "@electron-forge/maker-rpm",
           "config": {}
         }
+      ],
+      "publishers": [
+        {
+          "name": "@electron-forge/publisher-github",
+          "config": {
+            "repository": {
+              "owner": "gitlukeaustin",
+              "name": "electron-test-example"
+            }
+          },
+          "draft": true
+        }
       ]
     }
   },
@@ -56,6 +68,7 @@
     "@electron-forge/maker-squirrel": "^7.2.0",
     "@electron-forge/maker-zip": "^7.2.0",
     "@electron-forge/plugin-auto-unpack-natives": "^7.2.0",
+    "@electron-forge/publisher-github": "^7.2.0",
     "@types/webpack": "^5.28.5",
     "@types/webpack-dev-server": "^4.7.2",
     "electron": "^28.0.0",
