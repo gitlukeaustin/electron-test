@@ -1,5 +1,8 @@
-name: Build
-on: [push, pull_request]
+name: Release
+on:
+  push:
+    tags:
+      - 'v*'
 
 jobs:
   release:
@@ -17,4 +20,4 @@ jobs:
     - name: install dependencies
       run: npm install
     - name: build
-      run: npm run make
+      run: npm run publish
