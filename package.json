@@ -44,9 +44,9 @@
             "repository": {
               "owner": "gitlukeaustin",
               "name": "electron-test-example"
-            }
-          },
-          "draft": true
+            },
+            "draft": true
+          }
         }
       ]
     }
