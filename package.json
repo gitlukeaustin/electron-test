@@ -43,7 +43,7 @@
           "config": {
             "repository": {
               "owner": "gitlukeaustin",
-              "name": "electron-test-example"
+              "name": "electron-test"
             },
             "draft": true
           }
